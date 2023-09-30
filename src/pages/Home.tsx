@@ -1,21 +1,33 @@
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-
+import Container from "react-bootstrap/Container";
+import HomepageSlider from "../components/HompageSlider";
+import ServiceCard from "../components/ServiceCard";
+import { Row, Col } from "react-bootstrap";
+import cardImage from "../assets/images/slider1.jpg";
 
 export default function Home() {
   return (
     <Container>
-      <Row>
-        <Col>1 of 2</Col>
-        <Col>2 of 2</Col>
-      </Row>
-      <Row>
-        <Col>1 of 3</Col>
-        <Col>2 of 3</Col>
-        <Col>3 of 3</Col>
-      </Row>
-    </Container>
-  )
-}
+      <section className="slider">
+        <HomepageSlider />
+      </section>
 
+      <section className="services">
+        <Container>
+          <Row>
+            <Col>
+              <ServiceCard title="test" text="test" image={cardImage} />
+            </Col>
+            <Col>
+              <ServiceCard title="test" text="test" image={cardImage} />
+            </Col>
+            <Col>
+              <ServiceCard title="test" text="test" image={cardImage} />
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      <section className="about"></section>
+    </Container>
+  );
+}
