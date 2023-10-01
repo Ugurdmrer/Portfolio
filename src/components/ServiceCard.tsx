@@ -1,10 +1,7 @@
 import { Card, Container } from "react-bootstrap";
 
-export default function ServiceCard(props: string) {
-  const title = props.title;
-  const text = props.text;
-  const image = props.image;
-
+export default function ServiceCard(props: any) {
+    const { title, text, image } = props;
   return (
     <Container>
       <Card style={{ width: "22rem" }}>

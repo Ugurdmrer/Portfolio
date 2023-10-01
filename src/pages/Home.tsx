@@ -13,7 +13,7 @@ export default function Home() {
 
       <section className="services">
         <Container>
-          <Row>
+          <Row className="gap-4">
             <Col>
               <ServiceCard title="test" text="test" image={cardImage} />
             </Col>
@@ -27,7 +27,9 @@ export default function Home() {
         </Container>
       </section>
 
-      <section className="about"></section>
+      <section className="about">
+        
+      </section>
     </Container>
   );
 }
