@@ -12,10 +12,10 @@ export default function Home() {
       </section>
 
       <section className="services">
-        <Container>
+        <Container className="mt-5">
           <Row className="gap-4">
             <Col>
-              <ServiceCard title="test" text="test" image={cardImage} />
+              <ServiceCard title="Building Websites" text="I am making website as a freelancer to my customers" image={cardImage} />
             </Col>
             <Col>
               <ServiceCard title="test" text="test" image={cardImage} />
@@ -28,7 +28,7 @@ export default function Home() {
       </section>
 
       <section className="about">
-        
+
       </section>
     </Container>
   );

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <Navbarbs expand="lg" className="bg-white shadow-sm mb-3">
+    <Navbarbs expand="lg" className="bg-white shadow-sm my-5">
       <Container>
         <Navbarbs.Toggle aria-controls="basic-navbar-nav" />
         <Navbarbs.Collapse id="basic-navbar-nav">
