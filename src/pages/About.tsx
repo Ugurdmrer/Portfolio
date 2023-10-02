@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className="container">
       <h1 className="d-flex justify-content-center fw-bold mb-5">About Me</h1>
-      <div className="d-flex">
+      <div className="d-flex mb-5">
         <div className="col-6 justify-content-center d-flex">
           <img src={aboutImage} alt="image" className="rounded w-50" />
         </div>

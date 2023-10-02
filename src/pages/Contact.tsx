@@ -4,6 +4,29 @@ import linkedinIcon from '../assets/icons/linkedin.svg'
 import { useFormik } from 'formik'
 
 export default function Contact() {
+
+  const validate = values => {
+    const errors = {};
+    if (!values.name) {
+      errors.name = 'Required';
+    } else if (values.name.length > 15) {
+      errors.name = 'Must be 15 characters or less';
+    }
+
+    if (!values.email) {
+      errors.email = 'Required';
+    } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
+      errors.email = 'Invalid email address';
+    }
+
+    if (!values.phone) {
+      errors.phone = 'Required';
+    } else if (values.phone.length < 11) {
+      errors.phone = 'Must be 11 characters or more';
+    }
+
+    return errors;
+  };
   const formik = useFormik({
     initialValues: {
       name: '',
@@ -11,6 +34,7 @@ export default function Contact() {
       phone: '',
       text: '',
     },
+    validate,
     onSubmit: values => {
       alert(JSON.stringify(values, null, 2));
     },
@@ -49,38 +73,44 @@ export default function Contact() {
             <div className='d-flex flex-column justify-content-center text-center'>
               <label htmlFor="name">Name</label>
               <input
+                className='border border-primary rounded '
                 id="name"
                 name="name"
                 type="name"
                 onChange={formik.handleChange}
                 value={formik.values.name}
               />
+              {formik.errors.name ? <div className='text-danger fw-normal'>{formik.errors.name}</div> : null}
             </div>
             <div className='d-flex flex-column justify-content-center text-center'>
               <label htmlFor="email">Email Address</label>
               <input
+                className='border border-primary rounded ' 
                 id="email"
                 name="email"
                 type="email"
                 onChange={formik.handleChange}
                 value={formik.values.email}
               />
+              {formik.errors.email ? <div className='text-danger fw-normal'>{formik.errors.email}</div> : null}
             </div>
             <div className='d-flex flex-column justify-content-center text-center'>
               <label htmlFor="phone">Phone</label>
               <input
+                className='border border-primary rounded '
                 id="phone"
                 name="phone"
                 type="phone"
                 onChange={formik.handleChange}
                 value={formik.values.phone}
               />
+              {formik.errors.phone ? <div className='text-danger fw-normal'>{formik.errors.phone}</div> : null}
             </div>
           </div>
           <div className='d-flex flex-column text-center my-4'>
             <label htmlFor="text">Message</label>
             <textarea
-              className='w-50 mx-auto '
+              className='w-50 mx-auto border border-primary rounded'
               id="text"
               name="text"
               onChange={formik.handleChange}
