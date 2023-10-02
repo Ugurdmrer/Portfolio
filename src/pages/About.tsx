@@ -6,7 +6,7 @@ export default function About() {
       <h1 className="d-flex justify-content-center fw-bold mb-5">About Me</h1>
       <div className="d-flex">
         <div className="col-6 justify-content-center d-flex">
-          <img src={aboutImage} alt="image" className="rounded-circle w-50" />
+          <img src={aboutImage} alt="image" className="rounded w-50" />
         </div>
         <div className="col-6 d-flex flex-column justify-content-center">
           <p className="text-center fw-bold">
@@ -77,6 +77,19 @@ export default function About() {
             </li>
             <li className="list-group-item">
               <div className="border rounded p-4 d-flex gap-4 bg-light fw-bold">Figma <span className=" badge bg-primary rounded-pill">40%</span></div>
+            </li>
+          </ul>
+        </div>
+        <div className="col-2">
+          <ul className="d-flex flex-column gap-5">
+            <li className="list-group-item">
+              <div className="border rounded p-4 d-flex gap-4 bg-light fw-bold">React <span className=" badge bg-primary rounded-pill">50%</span></div>
+            </li>
+            <li className="list-group-item">
+              <div className="border rounded p-4 d-flex gap-4 bg-light fw-bold">Django <span className=" badge bg-primary rounded-pill">70%</span></div>
+            </li>
+            <li className="list-group-item">
+              <div className="border rounded p-4 d-flex gap-4 bg-light fw-bold">Flask <span className=" badge bg-primary rounded-pill">40%</span></div>
             </li>
           </ul>
         </div>
