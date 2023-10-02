@@ -31,65 +31,65 @@ export default function About() {
         <div className="col-2">
           <ul className="d-flex flex-column gap-5">
             <li className="list-group-item">
-              <div className="border rounded p-4 d-flex gap-4 bg-light fw-bold">HTML <span className=" badge bg-primary rounded-pill">90%</span></div>
+              <div className="border rounded p-4 d-flex gap-3 bg-light fw-bold">HTML <span className=" badge bg-primary rounded-pill">90%</span></div>
             </li>
             <li className="list-group-item">
-              <div className="border rounded p-4 d-flex gap-4 bg-light fw-bold">Css <span className=" badge bg-primary rounded-pill">80%</span></div>
+              <div className="border rounded p-4 d-flex gap-3 bg-light fw-bold">Css <span className=" badge bg-primary rounded-pill">80%</span></div>
             </li>
             <li className="list-group-item">
-              <div className="border rounded p-4 d-flex gap-4 bg-light fw-bold">Javascript <span className=" badge bg-primary rounded-pill">80%</span></div>
-            </li>
-          </ul>
-        </div>
-        <div className="col-2">
-          <ul className="d-flex flex-column gap-5">
-            <li className="list-group-item">
-              <div className="border rounded p-4 d-flex gap-4 bg-light fw-bold">Python <span className=" badge bg-primary rounded-pill">80%</span></div>
-            </li>
-            <li className="list-group-item">
-              <div className="border rounded p-4 d-flex gap-4 bg-light fw-bold">NodeJs <span className=" badge bg-primary rounded-pill">40%</span></div>
-            </li>
-            <li className="list-group-item">
-              <div className="border rounded p-4 d-flex gap-4 bg-light fw-bold">Typescript <span className=" badge bg-primary rounded-pill">40%</span></div>
+              <div className="border rounded p-4 d-flex gap-3 bg-light fw-bold">Javascript <span className=" badge bg-primary rounded-pill">80%</span></div>
             </li>
           </ul>
         </div>
         <div className="col-2">
           <ul className="d-flex flex-column gap-5">
             <li className="list-group-item">
-              <div className="border rounded p-4 d-flex gap-4 bg-light fw-bold">MongoDB <span className=" badge bg-primary rounded-pill">80%</span></div>
+              <div className="border rounded p-4 d-flex gap-3 bg-light fw-bold">Python <span className=" badge bg-primary rounded-pill">80%</span></div>
             </li>
             <li className="list-group-item">
-              <div className="border rounded p-4 d-flex gap-4 bg-light fw-bold">Sqlite <span className=" badge bg-primary rounded-pill">50%</span></div>
+              <div className="border rounded p-4 d-flex gap-3 bg-light fw-bold">NodeJs <span className=" badge bg-primary rounded-pill">40%</span></div>
             </li>
             <li className="list-group-item">
-              <div className="border rounded p-4 d-flex gap-4 bg-light fw-bold">Mysql <span className=" badge bg-primary rounded-pill">40%</span></div>
-            </li>
-          </ul>
-        </div>
-        <div className="col-2">
-          <ul className="d-flex flex-column gap-5">
-            <li className="list-group-item">
-              <div className="border rounded p-4 d-flex gap-4 bg-light fw-bold">Tailwind <span className=" badge bg-primary rounded-pill">90%</span></div>
-            </li>
-            <li className="list-group-item">
-              <div className="border rounded p-4 d-flex gap-4 bg-light fw-bold">Bootstrap <span className=" badge bg-primary rounded-pill">80%</span></div>
-            </li>
-            <li className="list-group-item">
-              <div className="border rounded p-4 d-flex gap-4 bg-light fw-bold">Figma <span className=" badge bg-primary rounded-pill">40%</span></div>
+              <div className="border rounded p-4 d-flex gap-3 bg-light fw-bold">Typescript <span className=" badge bg-primary rounded-pill">40%</span></div>
             </li>
           </ul>
         </div>
         <div className="col-2">
           <ul className="d-flex flex-column gap-5">
             <li className="list-group-item">
-              <div className="border rounded p-4 d-flex gap-4 bg-light fw-bold">React <span className=" badge bg-primary rounded-pill">50%</span></div>
+              <div className="border rounded p-4 d-flex gap-3 bg-light fw-bold">MongoDB <span className=" badge bg-primary rounded-pill">80%</span></div>
             </li>
             <li className="list-group-item">
-              <div className="border rounded p-4 d-flex gap-4 bg-light fw-bold">Django <span className=" badge bg-primary rounded-pill">70%</span></div>
+              <div className="border rounded p-4 d-flex gap-3 bg-light fw-bold">Sqlite <span className=" badge bg-primary rounded-pill">50%</span></div>
             </li>
             <li className="list-group-item">
-              <div className="border rounded p-4 d-flex gap-4 bg-light fw-bold">Flask <span className=" badge bg-primary rounded-pill">40%</span></div>
+              <div className="border rounded p-4 d-flex gap-3 bg-light fw-bold">Mysql <span className=" badge bg-primary rounded-pill">40%</span></div>
+            </li>
+          </ul>
+        </div>
+        <div className="col-2">
+          <ul className="d-flex flex-column gap-5">
+            <li className="list-group-item">
+              <div className="border rounded p-4 d-flex gap-3 bg-light fw-bold">Tailwind <span className=" badge bg-primary rounded-pill">90%</span></div>
+            </li>
+            <li className="list-group-item">
+              <div className="border rounded p-4 d-flex gap-3 bg-light fw-bold">Bootstrap <span className=" badge bg-primary rounded-pill">80%</span></div>
+            </li>
+            <li className="list-group-item">
+              <div className="border rounded p-4 d-flex gap-3 bg-light fw-bold">Figma <span className=" badge bg-primary rounded-pill">40%</span></div>
+            </li>
+          </ul>
+        </div>
+        <div className="col-2">
+          <ul className="d-flex flex-column gap-5">
+            <li className="list-group-item">
+              <div className="border rounded p-4 d-flex gap-3 bg-light fw-bold">React <span className=" badge bg-primary rounded-pill">50%</span></div>
+            </li>
+            <li className="list-group-item">
+              <div className="border rounded p-4 d-flex gap-3 bg-light fw-bold">Django <span className=" badge bg-primary rounded-pill">70%</span></div>
+            </li>
+            <li className="list-group-item">
+              <div className="border rounded p-4 d-flex gap-3 bg-light fw-bold">Flask <span className=" badge bg-primary rounded-pill">40%</span></div>
             </li>
           </ul>
         </div>
