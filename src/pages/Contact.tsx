@@ -9,7 +9,7 @@ export default function Contact() {
       name: '',
       email: '',
       phone: '',
-      message: '',
+      text: '',
     },
     onSubmit: values => {
       alert(JSON.stringify(values, null, 2));
@@ -84,7 +84,7 @@ export default function Contact() {
               id="text"
               name="text"
               onChange={formik.handleChange}
-              value={formik.values.message}
+              value={formik.values.text}
             />
           </div>
           <div className='d-flex justify-content-center'>
