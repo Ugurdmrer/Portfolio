@@ -7,7 +7,7 @@ import cardImage from "../assets/images/slider1.jpg";
 export default function Home() {
   return (
     <Container>
-      <section className="slider">
+      <section>
         <HomepageSlider />
       </section>
 

@@ -57,19 +57,17 @@ export default class SimpleSlider extends Component {
         ]
     };
     return (
-      <div>
-        <Slider ref={slider =>(this.slider = slider)} {...settings}>
-          <div style={{}}>
-            <img style={{"objectFit":"cover","height":"500px","width":"1000xp;"}} src={slider1} alt="image" />
-          </div>
-          <div style={{}}>
-          <img style={{"objectFit":"cover","height":"500px","width":"1000xp;"}} src={slider2} alt="image" />
-          </div>
-          <div style={{}}>
-          <img style={{"objectFit":"cover","height":"500px","width":"1000xp;"}} src={slider3} alt="image" />
-          </div>
-        </Slider>
-      </div>
+          <Slider  ref={slider =>(this.slider = slider)} {...settings}>
+            <div>
+              <img  style={{"objectFit":"cover","height":"500px","width":"1300px"}} src={slider1} alt="image" />
+            </div>
+            <div >
+              <img style={{"objectFit":"cover","height":"500px","width":"1300px"}} src={slider2} alt="image" />
+            </div>
+            <div >
+              <img style={{"objectFit":"cover","height":"500px","width":"1300px"}} src={slider3} alt="image" />
+            </div>
+          </Slider>
     );
   }
 }
