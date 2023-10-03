@@ -3,7 +3,7 @@ import aboutImage from "../assets/images/ugurdemirer.jpg";
 export default function About() {
   return (
     <div className="container">
-      <h1 className="d-flex justify-content-center fw-bold mb-5">About Me</h1>
+      <h1 className="d-flex justify-content-center  mb-5">About Me</h1>
       <div className="d-flex mb-5">
         <div className="col-6 justify-content-center d-flex">
           <img src={aboutImage} alt="image" className="rounded w-50" />
@@ -26,7 +26,7 @@ export default function About() {
           </p>
         </div>
       </div>
-      <h1 className="d-flex justify-content-center fw-bold mb-5">Skills</h1>
+      <h1 className="d-flex justify-content-center  mb-5">Skills</h1>
       <div className="d-flex justify-content-center">
         <div className="col-2">
           <ul className="d-flex flex-column gap-5">

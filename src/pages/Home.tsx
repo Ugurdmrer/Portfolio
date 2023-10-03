@@ -54,7 +54,7 @@ export default function Home() {
       </section>
 
       <section className="mt-5">
-        <h1 className="d-flex justify-content-center mb-5">About Me</h1>
+        <h1 className="d-flex justify-content-center mb-5 ">About Me</h1>
         <AboutSection
           image={aboutImage}
           text="I am a web developer. I am making websites as a freelancer. I am
@@ -85,7 +85,7 @@ export default function Home() {
             <AboutCard title="Games" text="A gamer" image={aboutImage4} />
             <AboutCard
               title="Pokemon"
-              text="I am a pokemon fun"
+              text="I am a pokemon fan"
               image={aboutImage5}
             />
           </div>

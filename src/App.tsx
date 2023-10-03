@@ -7,6 +7,7 @@ import Contact from './pages/Contact'
 import ErrorPage from './Errorpage'
 import Navbar from './components/layout/Navbar'
 import Footer from './components/layout/Footer'
+
 function App() {
 
   return (
